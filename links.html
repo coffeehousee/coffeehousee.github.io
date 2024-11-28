@@ -3,28 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Links Page</title>
+    <title>Links</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            margin: 20px;
+        }
+        img {
+            width: 200px;
+            height: auto;
+        }
+    </style>
 </head>
 <body>
-    <h1>Exemplu de Link-uri</h1>
+    <div class="container">
+        <h1>Exemple de link-uri</h1>
 
-    <!-- Link text -->
-    <p>
-        <a href="https://www.google.com" target="_blank">Deschide Google</a>
-    </p>
+        <!-- Link de tip text -->
+        <p>
+            <a href="https://www.google.com" target="_blank">Accesează Google</a>
+        </p>
 
-    <!-- Link buton -->
-    <p>
-        <a href="https://www.github.com" target="_blank">
-            <button>Deschide GitHub</button>
-        </a>
-    </p>
+        <!-- Link de tip buton -->
+        <p>
+            <button onclick="window.open('https://www.github.com', '_blank')">Deschide GitHub</button>
+        </p>
 
-    <!-- Link imagine -->
-    <p>
-        <a href="https://www.wikipedia.org" target="_blank">
-            <img src="https://via.placeholder.com/150" alt="Wikipedia">
-        </a>
-    </p>
+        <!-- Link de tip imagine -->
+        <p>
+            <a href="https://www.wikipedia.org" target="_blank">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/6/63/Wikipedia-logo.png" alt="Wikipedia">
+            </a>
+        </p>
+    </div>
 </body>
 </html>
